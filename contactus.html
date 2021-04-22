@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> contact us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet"/></link>
+
+    <style>
+        div{
+            width:300px;
+        }
+    </style>
+  <script>
+    function myFunction() {
+        //alert('you clicked the button!!');
+        var txtName = document.getElementById("txtName")
+        txtName.classList.add("border")
+        if (txtName.value == "") {
+            // alert("Name cannot be empty")
+            //txtName.style.borderColor = "Red"
+            txtName.classList.add("border-danger")
+            document.getElementById("errName").innerHTML = "Name cannot be empty...."
+
+        }
+        else {
+           // txtName.style.borderColor = "Green"
+            txtName.classList.add("border-success")
+            txtName.classList.remove("border-danger")
+            document.getElementById("errName").innerHTML = ""
+        }
+       
+        var txtAge = document.getElementById("txtAddress");
+        txtAge.classList.add("border")
+        //alert(parseInt(txtAge.value) + 10)
+        
+        //alert(age + 10)
+        //and -&&    or -|| 
+        if (txtAddress.value==""){
+            txtAddress.classList.add("border-danger")
+            document.getElementById("errAddress").innerHTML = "address required"
+        }
+        else {
+            txtAddress.classList.add("border-success")
+            txtAddress.classList.remove("border-danger")
+            document.getElementById("errAddress").innerHTML = "invalid"
+        }
+        var Contact= txtContact.value 
+         if (Contact==pattern) {
+            txtContact.classList.add("border-success")
+            document.getElementById("errContact").innerHTML = ""
+        }
+        else {
+            txtContact.classList.add("border-danger")
+            txtContact.classList.remove("border-success")
+            document.getElementById("errContact").innerHTML = "invalid"
+        }
+    }
+</script>
+</head>
+<body style="background-color: lightgray;">
+    
+    <img src="cars.jpeg" height="100" weight="100">
+
+    <h1 style="text-align:center">
+        <font face="lacto" size="6" color="black"> CAR SHOWROOM</font>
+
+    </h1>
+    <br />
+
+    
+    <table cellpadding="3" cellspacing="3" border="3">
+        <tr>
+            <th> <a href="home.html">home </a></th>
+            <th> <a href="des.html">about</a></th>
+        </tr>
+
+
+    </table>
+    
+    <div class="add">
+        <table>
+  
+          <tr>
+              <td>
+                  <b > <mark> ADDRESS </mark> </b>
+              </td>
+          </tr>
+  
+          <br />
+          <tr>
+  
+              <td>
+                  <p>
+                      No.9, Express Avenue Shop No. UGFD01, <br />
+                      Ground Floor, 50L, Whites Rd, <br />
+                      Royapettah, <br />
+                      Chennai, Tamil Nadu 600014
+                  </p>
+              </td>
+          </tr>
+  
+        </table>
+      <br />
+  
+    </div>
+<div class="alert alert-primary" style="float:right">
+            <p> <b> CONTACT </b></p>
+            <label for="txtName" class="form-control">Name</label>
+            <input class="form-control" type="text" id="txtName" />
+            <span id="errName">
+            </span>
+            <br/>
+            <label for="txtAddress" class="form-control">Address</label>
+            <input class="form-control" label for="txtAddress" type="text" id="txtAddress" />
+            <span id="errAddress">
+                <!--innerHTML-->
+            </span>
+           </br>
+            <label for="txtContact" class="form-control">Phone No</label>
+            <input class="form-control" label for="txtContact" type="number" id="txtContact" maxlength="10" pattern="^\d{10}$"/>
+            <span id="errContact">
+                <!--innerHTML-->
+            </span>
+            <br/>
+            <button class="btn btn-primary" onclick="myFunction()">SUBMIT</button>
+</div>
+    
+   <div class="loc" style="margin-left:500px;">
+     <h2 style="text-align:center">
+        <font color="purple"> LOCATION </font>
+     </h2>
+     <p style="text-align: center"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124383.32482745765!2d80.14764865961956!3d13.037014941786039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265e59f0139d1%3A0xad7680412e68ffa1!2sBMW%20KUN%20Exclusive%20%7C%20City%20Showroom!5e0!3m2!1sen!2sin!4v1618511761433!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+
+   </div>
+
+    
+
+</body>
+</html>
