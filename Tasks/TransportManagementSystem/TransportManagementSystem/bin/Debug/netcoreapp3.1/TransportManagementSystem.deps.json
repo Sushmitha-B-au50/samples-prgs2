@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TransportManagementSystem/1.0.0": {
+        "dependencies": {
+          "TraansportManagementBLLibrary": "1.0.0"
+        },
+        "runtime": {
+          "TransportManagementSystem.dll": {}
+        }
+      },
+      "TraansportManagementBLLibrary/1.0.0": {
+        "runtime": {
+          "TraansportManagementBLLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TransportManagementSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TraansportManagementBLLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

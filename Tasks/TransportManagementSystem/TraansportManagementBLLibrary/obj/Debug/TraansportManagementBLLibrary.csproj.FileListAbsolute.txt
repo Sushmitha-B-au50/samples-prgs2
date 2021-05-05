@@ -1,0 +1,6 @@
+C:\Users\hp\Desktop\training\TransportManagementSystem\TraansportManagementBLLibrary\obj\Debug\TraansportManagementBLLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\training\TransportManagementSystem\TraansportManagementBLLibrary\obj\Debug\TraansportManagementBLLibrary.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\training\TransportManagementSystem\TraansportManagementBLLibrary\bin\Debug\TraansportManagementBLLibrary.dll
+C:\Users\hp\Desktop\training\TransportManagementSystem\TraansportManagementBLLibrary\bin\Debug\TraansportManagementBLLibrary.pdb
+C:\Users\hp\Desktop\training\TransportManagementSystem\TraansportManagementBLLibrary\obj\Debug\TraansportManagementBLLibrary.dll
+C:\Users\hp\Desktop\training\TransportManagementSystem\TraansportManagementBLLibrary\obj\Debug\TraansportManagementBLLibrary.pdb
