@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <p>
+        @foreach (var item in Model)
+        {
+            @item.Id
+            <br />
+            @item.PostText
+            <br />
+            @item.CommentText
+            <br />
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+            <br />
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            <br />
+        }
+    </p>
+</body>
+</html>
