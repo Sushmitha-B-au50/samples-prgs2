@@ -1,0 +1,14 @@
+D:\29.05.2021\Desktop\training\BOOKDB\BOOKDB\bin\Debug\BOOKDB.exe.config
+D:\29.05.2021\Desktop\training\BOOKDB\BOOKDB\bin\Debug\BOOKDB.exe
+D:\29.05.2021\Desktop\training\BOOKDB\BOOKDB\bin\Debug\BOOKDB.pdb
+D:\29.05.2021\Desktop\training\BOOKDB\BOOKDB\obj\Debug\BOOKDB.csproj.AssemblyReference.cache
+D:\29.05.2021\Desktop\training\BOOKDB\BOOKDB\obj\Debug\BOOKDB.csproj.CoreCompileInputs.cache
+D:\29.05.2021\Desktop\training\BOOKDB\BOOKDB\obj\Debug\BOOKDB.exe
+D:\29.05.2021\Desktop\training\BOOKDB\BOOKDB\obj\Debug\BOOKDB.pdb
+D:\29.05.2021\Desktop\training\June 8 - 11\BOOKDB\BOOKDB\bin\Debug\BOOKDB.exe.config
+D:\29.05.2021\Desktop\training\June 8 - 11\BOOKDB\BOOKDB\bin\Debug\BOOKDB.exe
+D:\29.05.2021\Desktop\training\June 8 - 11\BOOKDB\BOOKDB\bin\Debug\BOOKDB.pdb
+D:\29.05.2021\Desktop\training\June 8 - 11\BOOKDB\BOOKDB\obj\Debug\BOOKDB.csproj.AssemblyReference.cache
+D:\29.05.2021\Desktop\training\June 8 - 11\BOOKDB\BOOKDB\obj\Debug\BOOKDB.csproj.CoreCompileInputs.cache
+D:\29.05.2021\Desktop\training\June 8 - 11\BOOKDB\BOOKDB\obj\Debug\BOOKDB.exe
+D:\29.05.2021\Desktop\training\June 8 - 11\BOOKDB\BOOKDB\obj\Debug\BOOKDB.pdb
