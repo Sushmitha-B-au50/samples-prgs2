@@ -1,0 +1,26 @@
+﻿@model MVCwithADO.Models.CRUDModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateAuthor</title>
+</head>
+<body>
+    <div>
+        <form id="frmNewAuthor" method="post" action="@Url.Action("InsertNewAuthor")">
+
+            Author Name :<input name="txtname" />
+            <br />
+            <input type="submit" value="Submit" name="action" />
+            <input type="submit" value="cancel" name="action" />
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿@using System.Data
+@model System.Data.DataTable
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AuthorIndex</title>
+</head>
+<body>
+    @Html.ActionLink(" click here to go to BooksIndex", "Index")
+
+    <div>
+        <form method="post" name="Display">
+            <h2>AuthorIndex</h2>
+            @Html.ActionLink("Add new author", "NewAuthor")
+
+            @{ if (Model.Rows.Count > 0)
+                {
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Author ID</td>
+                <td>AuthorName</td>
+            </tr>
+        </thead>
+        @foreach (DataRow dr in Model.Rows)
+        {
+<tr>
+    <td>@dr["AuthorID"].ToString()</td>
+    <td>@dr["AuthorName"].ToString()</td>
+</tr>}
+    </table> } }
+        </form>
+    </div>
+</body>
+</html>
